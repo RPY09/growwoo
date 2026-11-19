@@ -18,6 +18,7 @@ Welcome to **GrowWoo**! This document maintains a running record of changes made
 
 | Date | Author | Branch | Description |
 | :--- | :--- | :--- | :--- |
+| 2026-11-19 | Repo Admin | `dev` | Merged Login and Register authentication features into `dev`: full-screen split Login page (pill inputs, forgot password recovery flow, social sign-in) and comprehensive 6-step Candidate Registration Stepper (Basic Info with City/State/Country, Education, conditional Fresher/Experience toggle, Detailed Projects, Skills, Preferences, Full Profile Preview & inline section editing). |
 | 2026-11-19 | Repo Admin | `feature/login` | Created `feature/login` branch, established centralized CSS design system tokens in `frontend/src/index.css` (headings, fonts, colors, buttons, inputs), installed `lucide-react`, and built the responsive Login page (`frontend/src/pages/Login.jsx`). |
 | 2026-11-19 | Repo Admin | `dev` | Added `PROJECT_TRACK.md` (onboarding & API integration contract) and configured Vite proxy in `frontend/vite.config.js` to route `/api` calls to Spring Boot (`:8080`). |
 | 2026-11-19 | Repo Admin | `dev` | Initialized monorepo structure: scaffolded React (Vite) app in `frontend/`, reserved `backend/` with `.gitkeep`, set up root `.gitignore` and `README.md`, created and pushed `dev` branch to remote. |
