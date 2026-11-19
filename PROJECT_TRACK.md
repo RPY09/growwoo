@@ -18,6 +18,7 @@ Welcome to **GrowWoo**! This document maintains a running record of changes made
 
 | Date | Author | Branch | Description |
 | :--- | :--- | :--- | :--- |
+| 2026-11-19 | Repo Admin | `dev` | Added `PROJECT_TRACK.md` (onboarding & API integration contract) and configured Vite proxy in `frontend/vite.config.js` to route `/api` calls to Spring Boot (`:8080`). |
 | 2026-11-19 | Repo Admin | `dev` | Initialized monorepo structure: scaffolded React (Vite) app in `frontend/`, reserved `backend/` with `.gitkeep`, set up root `.gitignore` and `README.md`, created and pushed `dev` branch to remote. |
 
 *(Please append a new row above whenever a major milestone or feature is completed)*
